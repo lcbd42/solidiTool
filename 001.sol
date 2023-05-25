@@ -25,4 +25,9 @@ contract Hello{
     // uint: 0 ~ 2^8-1 (범위가 가장 커서 주로 사용)
     uint256 public uit = 12345678;
 
+    // 1 ether == 10^9 Gwei == 10*18 wei
+    uint256 public value1 = 1 ether;
+    uint256 public value2 = 1 gwei;
+    uint256 public value3 = 1 wei;
+
 }
