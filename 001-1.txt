@@ -1,0 +1,21 @@
+
+// std BEP20
+
+name()
+symbol()
+decimals()
+
+totalSupply()
+balabceOf()
+allowance()
+transferFrom()
+increaseAllowance()
+decreaseAllowance()
+transfer()
+isExcludedFromReward()
+reflectionFromToken()
+tokenFromReflection()
+
+
+// Is overlaped here
+https://github.com/HedgedIn-Finance/SmartContract/blob/main/HedgedIn.sol
