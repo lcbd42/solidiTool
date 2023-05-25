@@ -13,6 +13,9 @@ git add .
 git commit -m '수정'
 git push
 
+//del
+git branch -d [name]
+
 //즐겨찾기
 cmd + d
 
