@@ -37,3 +37,5 @@ contract Son is Father("James"){
         return money+earning;
     }
 }
+
+
