@@ -25,3 +25,23 @@ contract Son is Father{
 }
 
 
+contract Father1{
+    event FatherName(string name);
+    function who() public virtual {
+        emit FatherName("KimDaeHo");
+    }
+}
+
+contract Mother1{
+    event MotherName(string name);
+    function who() public virtual {
+        emit MotherName("Leopard");
+    }
+}
+
+// super의 상속은 제일 최신의 것(Mother)을 가져옴
+contract Son1 is Father1, Mother1{
+    function who() public override(Father1, Mother1){
+        super.who();
+    }
+}
